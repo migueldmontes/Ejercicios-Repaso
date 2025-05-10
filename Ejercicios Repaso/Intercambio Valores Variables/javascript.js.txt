@@ -1,0 +1,18 @@
+// Pedir los nombres al usuario
+let A = prompt("Introduce un nombre para Barcelona:");
+let B = prompt("Introduce un nombre para Tarragona:");
+
+// Mostrar los valores antes del intercambio
+document.write(`En Barcelona está ${A}, y en Tarragona está ${B}<br>`);
+
+// Intercambiar los valores
+let temp = A;
+A = B;
+B = temp;
+
+// Mostrar los valores después del intercambio
+document.write(`En Barcelona está ${A}, y en Tarragona está ${B}<br>`);
+
+// Verificación en consola
+console.log("Valor de A:", A);
+console.log("Valor de B:", B);
